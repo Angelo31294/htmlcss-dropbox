@@ -11,6 +11,10 @@
     list-style-type: none;
 }
 
+li{
+    margin: 25px 0;
+}
+
 .container-big{
     width: 1200px;
     margin: auto;
@@ -54,6 +58,17 @@ button{
     margin-bottom: 30px;
 }
 
+.button > button{
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+}
+
+#btn3{
+    padding-top: 0;
+}
 /* --- TYPO --- */
 
 body{
@@ -174,5 +189,7 @@ nav{
 .col-main > div{
     padding: 20px 0;
 }
+
 /* /Sezione 2 */
+
 /* --- FOOTER --- */

@@ -54,6 +54,12 @@ button{
     color: #fff;
 }
 
+.btn-secondary{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
 .hero-btn{
     margin-bottom: 30px;
 }
@@ -69,6 +75,12 @@ button{
 #btn3{
     padding-top: 0;
 }
+
+.col-4 > .btn-primary{
+    width: 100%;
+    padding: 10px 0;
+}
+
 /* --- TYPO --- */
 
 body{
@@ -94,7 +106,6 @@ h3{
     top: 330px;
     font-size: 40px;
 }
-
 
 .fa-check{
     color: #0061ff;
@@ -174,6 +185,38 @@ nav{
     width: 30%;
     border: 1px solid #d0d0d3;
 }
+.col-2{
+    width: 100%;
+    border: 1px solid #d0d0d3;
+    margin-top: 50px;
+}
+
+.col-3{
+    width: 70%;
+}
+
+.col-3 > img{
+    width: 100%;
+    padding: 0 50px 0 0;
+}
+
+.col-3 > h3, .col-3 > h4, .col-3 > p{
+    padding: 15px 20px;
+}
+
+.col-4{
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
+
+.col-5{
+    width: 30%;
+    padding: 50px 0;
+}
+.col-5 > h3, .col-5 > p{
+    padding: 15px 0;
+}
 
 .top{
     text-align: center;
@@ -191,5 +234,9 @@ nav{
 }
 
 /* /Sezione 2 */
+
+/* Sezione 3 */
+
+/* /Sezione 3 */
 
 /* --- FOOTER --- */

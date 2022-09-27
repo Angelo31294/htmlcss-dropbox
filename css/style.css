@@ -72,10 +72,6 @@ button{
     width: 100%;
 }
 
-#btn3{
-    padding-top: 0;
-}
-
 .col-4 > .btn-primary{
     width: 100%;
     padding: 10px 0;
@@ -134,6 +130,7 @@ nav{
 .nav-left{
     text-align: left;
 }
+
 .nav-right{
     justify-content: right;
 }
@@ -147,9 +144,11 @@ nav{
     display: inline;
     padding: 0 20px;
 }
+
 /* --- MAIN --- */
 
 /* Sezione 1 */
+
 .hero{
     margin-top: 100px;
     background-color: #b4d0e7;

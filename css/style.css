@@ -33,6 +33,11 @@ li{
     justify-content: space-between;
 }
 
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 p{
     margin-bottom: 30px;
 } 
@@ -184,6 +189,16 @@ nav{
     width: 30%;
     border: 1px solid #d0d0d3;
 }
+
+.col-w30{
+    width: 30%;
+    padding: 25px 0;
+}
+
+.col-w30 > img{
+    width: 100%;
+}
+
 .col-2{
     width: 100%;
     border: 1px solid #d0d0d3;
@@ -213,6 +228,7 @@ nav{
     width: 30%;
     padding: 50px 0;
 }
+
 .col-5 > h3, .col-5 > p{
     padding: 15px 0;
 }
